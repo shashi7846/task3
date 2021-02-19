@@ -1,0 +1,34 @@
+
+var palindrome = function(array){
+    var str = "";
+    var rev = "";
+    for(var i=0;i<array.length;i++){
+        rev = array[i].split("").reverse().join("");
+        if(rev===array[i]){
+        str = str + " " + array[i];
+        }
+    }
+    console.log(str);
+}
+palindrome(["hello", "madam","faf"]);
+
+
+//
+
+
+
+(function(array)
+{
+    var str="";
+    var rev="";
+    for(i=0;i<array.length;i++)
+    {
+        
+        rev=array[i].split("").reverse().join("");
+        if(rev==array[i])
+        str=str+" "+array[i];
+        
+    }
+    console.log(str);
+})
+(['loopl','madam','loopool'])

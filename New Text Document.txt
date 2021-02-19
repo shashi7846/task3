@@ -1,0 +1,17 @@
+ var odd=function(a=[1,2,3,4,5])
+{
+    for(i=0;i<a.length;i++)
+    if(a[i]%2!==0)
+    console.log(a[i])
+    }
+odd()
+
+//both wayw anonymous funtion
+
+ var odd=function(a)
+{
+    for(i=0;i<a.length;i++)
+    if(a[i]%2!==0)
+    console.log(a[i])
+    }
+odd(a=[1,2,3,4,5])

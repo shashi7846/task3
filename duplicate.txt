@@ -1,0 +1,19 @@
+(function(){
+let chars = ['A', 'B', 'A', 'C', 'B','D'];
+let uniqueChars = [...new Set(chars)];
+
+console.log(uniqueChars);
+})
+();
+
+
+//iife
+
+var duplicate = function(){
+    var char=["A","b","C","D","A"];
+    let uniqueChars=[...new Set(char)];
+    console.log(uniqueChars)
+}
+duplicate()
+
+

@@ -1,0 +1,20 @@
+var Median=function(arr){
+    var arr1;
+    arr1=arr;
+    arr1=arr1.sort()
+    var len =(arr1.length)/2;
+  med=(arr[len]-1)/2;
+    console.log(med)
+}
+Median([1,2,4,6,3,5])
+
+//iife
+(function(arr){
+    var arr1;
+    arr1=arr;
+    arr1=arr1.sort()
+    var len =(arr1.length)/2;
+  med=(arr[len]-1)/2;
+    console.log(med)
+})
+([1,2,4,6,3,5])

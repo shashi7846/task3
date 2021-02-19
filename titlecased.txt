@@ -1,0 +1,21 @@
+var titleCasedArray= function(array){
+    for(var i=0;i<array.length;i++){
+   let titleCase=array[i];
+    titleCase=titleCase[0].toUpperCase()+titleCase.substring(1).toLowerCase();
+    array[i]=titleCase;
+}
+console.log(array)
+}
+titleCasedArray(['sHash','shhs']);
+
+
+//iife
+(function(array){
+    for(var i=0;i<array.length;i++){
+   let titleCase=array[i];
+    titleCase=titleCase[0].toUpperCase()+titleCase.substring(1).toLowerCase();
+    array[i]=titleCase;
+}
+console.log(array)
+})
+(['sHash','shhs']);
